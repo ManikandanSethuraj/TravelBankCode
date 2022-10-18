@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:background="@drawable/curved_edges">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+        
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iePersonImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ic_baseline_person_pin_24"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="My Name"
+               android:id="@+id/iePersonName"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ieDate"
+                    android:gravity="end"
+                    android:padding="2dp"
+                    android:textColor="@color/black"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ieAmount"
+                    android:gravity="end"
+                    android:textColor="@color/black"
+                    android:padding="2dp"
+                   />
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_back"
+            android:padding="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ieType"
+                android:background="@drawable/curved_edges_blue_border"
+                android:textColor="@color/blue"
+                android:text="Meals"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="3dp"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/ieCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/curved_edges_blue_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Other"
+                    android:textColor="@color/blue" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ieImage"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/curved_edges"
+                    android:scaleType="centerCrop" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+<!--            &lt;!&ndash;            <androidx.appcompat.widget.AppCompatTextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:id="@+id/ieOther"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:background="@drawable/curved_edges_blue_border"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:padding="5dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:text="Other"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_alignParentEnd="true"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:textColor="@color/blue" />&ndash;&gt;-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/ieImage"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="@drawable/curved_edges"-->
+<!--                android:scaleType="centerCrop" />-->
+
+        </RelativeLayout>
+        
+        
+    </androidx.appcompat.widget.LinearLayoutCompat>
+   
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
